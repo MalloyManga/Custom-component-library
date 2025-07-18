@@ -7,7 +7,7 @@ import vueDevTools from 'vite-plugin-vue-devtools'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/Custome-component-library/', 
+  base: '/Custom-component-library/', 
   plugins: [
     vue(),
     vueDevTools(),
