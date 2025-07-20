@@ -44,7 +44,7 @@ const inputComps: IptComps[] = [
     { comp: Input11, iptProps: { ipt11Name: 'Name11', ipt11Label: 'Username' } },
     { comp: Input12, iptProps: { ipt12Name: 'Name12', ipt12Label: 'Your name' } },
     { comp: Input13, iptProps: { ipt13Name: 'Name13' } },
-    { comp: Input14, iptProps: { ipt14Name: 'Name14' } },
+    { comp: Input14, iptProps: { ipt14Name: 'Name14' }, cardProps: { isDark: true } },
     { comp: Input15, iptProps: { ipt15Name: 'Name15', ipt15Label: 'UserName', ipt15Pholder: 'Enter Username' } },
     { comp: Input16, iptProps: { ipt16Name: 'Name16' }, cardProps: { isDark: true } },
     { comp: Input17, iptProps: { ipt17Name: 'Name17' }, cardProps: { isDark: true } },

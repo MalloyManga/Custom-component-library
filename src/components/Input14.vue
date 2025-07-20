@@ -7,7 +7,7 @@ import Upload2 from './icons/Upload2.vue'
 const isFocused = ref(false)
 const ipt14Value = defineModel<string>('ipt14Value')
 const isActive = computed(() => {
-    return isFocused.value || (ipt14Value.value != '')
+    return isFocused.value || (ipt14Value.value == '')
 })
 </script>
 
