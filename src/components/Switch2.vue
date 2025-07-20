@@ -13,9 +13,8 @@ const props = defineProps({
 
 const emit = defineEmits(['swt2Check'])
 
-watch(isChecked, (newVal) => {
+watch(isChecked, () => {
     emit('swt2Check', isChecked.value)
-    console.log(newVal);
 })
 </script>
 

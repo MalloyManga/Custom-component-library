@@ -17,6 +17,7 @@ import Card2 from "@/components/Card2.vue";
 import Switch from "@/components/Switch.vue";
 import Switch2 from "@/components/Switch2.vue";
 import Button17 from "@/components/Button17.vue";
+import Switch3 from "@/components/Switch3.vue";
 
 interface BtnComps {
     comp: Component,
@@ -38,7 +39,8 @@ const buttonComps: BtnComps[] = [
     { comp: Button16, btnProps: { btn16Content: 'Button' }, cardProps: { isDark: true } },
     { comp: Switch, btnProps: { swtName: 'Name' }, cardProps: { isDark: true } },
     { comp: Switch2, cardProps: { isDark: true } },
-    { comp: Button17, btnProps: { btn17Content: 'Modern Button' }, cardProps: { isDark: true } }
+    { comp: Button17, btnProps: { btn17Content: 'Modern Button' }, cardProps: { isDark: true } },
+    { comp: Switch3 }
 ]
 
 </script>
