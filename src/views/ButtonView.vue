@@ -18,12 +18,17 @@ import Switch from "@/components/Switch.vue";
 import Switch2 from "@/components/Switch2.vue";
 import Button17 from "@/components/Button17.vue";
 import Switch3 from "@/components/Switch3.vue";
+import Switch4 from "@/components/Switch4.vue";
+import Button18 from "@/components/Button18.vue";
+
 
 interface BtnComps {
-    comp: Component,
-    btnProps?: Record<string, any>,
+    comp: Component
+    btnProps?: Record<string, any>
     cardProps?: Record<string, any>
+    btnSlot?: string
 }
+
 const buttonComps: BtnComps[] = [
     { comp: Button5, btnProps: { btn5Content: 'Button' } },
     { comp: Button6, btnProps: { btn6Content: 'Button' }, cardProps: { isDark: true } },
@@ -40,7 +45,9 @@ const buttonComps: BtnComps[] = [
     { comp: Switch, btnProps: { swtName: 'Name' }, cardProps: { isDark: true } },
     { comp: Switch2, cardProps: { isDark: true } },
     { comp: Button17, btnProps: { btn17Content: 'Modern Button' }, cardProps: { isDark: true } },
-    { comp: Switch3 }
+    { comp: Switch3 },
+    { comp: Switch4 },
+    { comp: Button18, btnSlot: '<template #character>綺麗</template>', btnProps: { posi: 'left' }, cardProps: { isDark: true } }
 ]
 
 </script>
@@ -49,7 +56,9 @@ const buttonComps: BtnComps[] = [
     <div
         class="w-full min-h-screen px-2 mt-24 grid auto-rows-[minmax(200px,auto)] grid-cols-[repeat(auto-fill,minmax(clamp(320px,80vw,400px),1fr))] gap-2">
         <Card2 v-for="btnComp in buttonComps" v-bind="btnComp.cardProps">
-            <component :is="btnComp.comp" v-bind="btnComp.btnProps" />
+            <component :is="btnComp.comp" v-bind="btnComp.btnProps">
+                <!-- slots -->
+            </component>
         </Card2>
     </div>
 
