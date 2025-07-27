@@ -1,7 +1,7 @@
 <!-- Home.vue -->
 <script setup lang="ts">
-import Button12 from '@/components/Button12.vue';
-import { useRouter } from 'vue-router';
+import Button12 from '@/components/Button12.vue'
+import { useRouter } from 'vue-router'
 
 
 const router = useRouter()

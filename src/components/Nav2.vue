@@ -1,12 +1,12 @@
 <!-- Nav2.vue -->
 <script setup lang="ts">
-import ButtonIcon from './icons/ButtonIcon.vue';
-import CardIcon from './icons/CardIcon.vue';
-import FormIcon from './icons/FormIcon.vue';
-import InputIcon from './icons/InputIcon.vue';
+import ButtonIcon from './icons/ButtonIcon.vue'
+import CardIcon from './icons/CardIcon.vue'
+import FormIcon from './icons/FormIcon.vue'
+import InputIcon from './icons/InputIcon.vue'
 import avatar from '../assets/MalloyManga.png'
-import { computed, onMounted, onUnmounted, ref, Transition } from 'vue';
-import { useRoute } from 'vue-router';
+import { computed, onMounted, onUnmounted, ref, Transition } from 'vue'
+import { useRoute } from 'vue-router'
 
 const route = useRoute()
 const isHovered = ref(false)
@@ -27,19 +27,19 @@ onMounted(() => {
         isHovered.value = false
     }, 1500)
     // ---
-    prevScrollPos.value = window.scrollY;
-    window.addEventListener('scroll', handleScroll);
+    prevScrollPos.value = window.scrollY
+    window.addEventListener('scroll', handleScroll)
 })
 
 const handleScroll = () => {
-    const currentScrollPos = window.scrollY;
-    visible.value = prevScrollPos.value > currentScrollPos || currentScrollPos < 10;
-    prevScrollPos.value = currentScrollPos;
-};
+    const currentScrollPos = window.scrollY
+    visible.value = prevScrollPos.value > currentScrollPos || currentScrollPos < 10
+    prevScrollPos.value = currentScrollPos
+}
 
 onUnmounted(() => {
-    window.removeEventListener('scroll', handleScroll);
-});
+    window.removeEventListener('scroll', handleScroll)
+})
 
 </script>
 

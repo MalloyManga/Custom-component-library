@@ -5,8 +5,8 @@ defineOptions({
 })
 
 interface Props {
-    ipt4Name: string;
-    ipt4Placeholder?: string;
+    ipt4Name: string
+    ipt4Placeholder?: string
 }
 
 const { ipt4Name = 'ipt4', ipt4Placeholder = 'Enter your password!' } = defineProps<Props>()

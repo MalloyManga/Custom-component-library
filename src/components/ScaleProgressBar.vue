@@ -1,13 +1,7 @@
 <!-- ScaleProgressBar.vue -->
 <!-- 注意父组件需要一个 flag 来进行信号的传递 以及 具体样式的调整 -->
 <!-- 操作方式为子绝父相 注意父元素定位 -->
-<!-- 
 
-为了复用 抽象出这么多 prop 真的值得吗？
-
-这个组件的实现方式为子绝父相 但是为了用这个组件而去给外层盒子加上 relative 会不会造成其他后果？ 
-
--->
 <script>
 export default {
     name: 'ScaleProgressBar',

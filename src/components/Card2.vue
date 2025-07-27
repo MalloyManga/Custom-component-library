@@ -1,6 +1,6 @@
 <!-- Card.2.vue -->
 <script setup lang="ts">
-import { computed } from 'vue';
+import { computed } from 'vue'
 interface Props {
     isDark?: boolean
 }

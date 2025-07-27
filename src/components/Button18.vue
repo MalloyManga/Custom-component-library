@@ -1,7 +1,7 @@
 <script setup lang="ts">
-import { computed, ref, Transition, watch } from 'vue';
-import CelebrateLeft from './icons/CelebrateLeft.vue';
-import CelebrateRight from './icons/CelebrateRight.vue';
+import { computed, ref, Transition, watch } from 'vue'
+import CelebrateLeft from './icons/CelebrateLeft.vue'
+import CelebrateRight from './icons/CelebrateRight.vue'
 
 
 type Posi = 'left' | 'right'

@@ -1,8 +1,8 @@
 <!-- Switch4.vue -->
 <script setup lang="ts">
-import HeartOutline from './icons/HeartOutline.vue';
-import HeartFill from './icons/HeartFill.vue';
-import Celebrate from './icons/Celebrate.vue';
+import HeartOutline from './icons/HeartOutline.vue'
+import HeartFill from './icons/HeartFill.vue'
+import Celebrate from './icons/Celebrate.vue'
 
 const isChecked = defineModel({ default: false })
 

@@ -1,7 +1,7 @@
 <!-- Input16.vue -->
 <script setup lang="ts">
-import { ref } from 'vue';
-import Search5 from './icons/Search5.vue';
+import { ref } from 'vue'
+import Search5 from './icons/Search5.vue'
 
 const isActive = ref(false)
 const ipt16Value = defineModel<string>('ipt16Value')

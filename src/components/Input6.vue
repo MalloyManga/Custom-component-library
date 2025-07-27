@@ -1,14 +1,14 @@
 <!-- Input6.vue -->
 <script setup lang="ts">
-import { computed, ref } from 'vue';
-import ScaleProgressBar from './ScaleProgressBar.vue';
+import { computed, ref } from 'vue'
+import ScaleProgressBar from './ScaleProgressBar.vue'
 
 defineOptions({
     name: 'Input6'
 })
 interface Props {
-    ipt6Name: string;
-    ipt6Label: string;
+    ipt6Name: string
+    ipt6Label: string
 }
 const { ipt6Name = 'ipt6', ipt6Label = 'Name' } = defineProps<Props>()
 const ipt6Value = defineModel<string>('ipt6Value')

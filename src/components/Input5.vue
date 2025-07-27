@@ -1,7 +1,7 @@
 <!-- Input5.vue -->
 <script setup lang="ts">
-import { computed, ref } from 'vue';
-import WidthProgressBar from './WidthProgressBar.vue';
+import { computed, ref } from 'vue'
+import WidthProgressBar from './WidthProgressBar.vue'
 
 defineOptions({
     name: 'Input5'
@@ -16,8 +16,8 @@ const ipt5PrgWidth = computed(() => {
 })
 
 interface Props {
-    ipt5Name: string;
-    ipt5Placeholder?: string;
+    ipt5Name: string
+    ipt5Placeholder?: string
 }
 const { ipt5Name = 'ipt5', ipt5Placeholder = 'Type something intelligent' } = defineProps<Props>()
 </script>

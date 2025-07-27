@@ -1,6 +1,6 @@
 <!-- Button17.vue -->
 <script setup lang="ts">
-import RightArrow from './icons/RightArrow.vue';
+import RightArrow from './icons/RightArrow.vue'
 
 interface Props {
     btn17Content: string

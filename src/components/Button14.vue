@@ -1,8 +1,8 @@
 <!-- Button14.vue -->
 <script setup lang="ts">
-import Codepen from './icons/Codepen.vue';
-import Github from './icons/Github.vue';
-import Jike from './icons/Jike.vue';
+import Codepen from './icons/Codepen.vue'
+import Github from './icons/Github.vue'
+import Jike from './icons/Jike.vue'
 
 interface Props {
     btn14Content: string

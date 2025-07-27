@@ -1,6 +1,6 @@
 <!-- Button15.vue -->
 <script setup lang="ts">
-import Code from './icons/Code.vue';
+import Code from './icons/Code.vue'
 
 // navigator.clipboard.writeText(text)
 const emit = defineEmits<{

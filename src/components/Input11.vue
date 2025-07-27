@@ -1,11 +1,11 @@
 <!-- Input11.vue -->
 <script setup lang="ts">
-import { ref } from 'vue';
+import { ref } from 'vue'
 
 const isFocused = ref(false)
 const ipt11Value = defineModel<string>('ipt11Value')
 interface Props {
-    ipt11Label: string;
+    ipt11Label: string
 }
 const { ipt11Label = 'SMOOTH BRUTALIST' } = defineProps<Props>()
 

@@ -1,27 +1,27 @@
 <!-- LoginView.vue -->
 <script setup lang="ts">
-import { ref, type Component } from "vue";
-import Input from '@/components/Input.vue';
-import Input2 from '@/components/Input2.vue';
-import Input3 from '@/components/Input3.vue';
-import Input4 from '@/components/Input4.vue';
-import Input5 from '@/components/Input5.vue';
-import Input6 from '@/components/Input6.vue';
-import Input7 from '@/components/Input7.vue';
-import Input8 from '@/components/Input8.vue';
-import Input9 from '@/components/Input9.vue';
-import Input10 from '@/components/Input10.vue';
-import Input11 from '@/components/Input11.vue';
-import Input12 from '@/components/Input12.vue';
-import Input13 from '@/components/Input13.vue';
-import Input14 from '@/components/Input14.vue';
-import Input15 from '@/components/Input15.vue';
-import Input16 from '@/components/Input16.vue';
-import Input17 from '@/components/Input17.vue';
-import Input18 from '@/components/Input18.vue';
-import Input19 from '@/components/Input19.vue';
-import Input20 from '@/components/Input20.vue';
-import Card2 from "@/components/Card2.vue";
+import { ref, type Component } from "vue"
+import Input from '@/components/Input.vue'
+import Input2 from '@/components/Input2.vue'
+import Input3 from '@/components/Input3.vue'
+import Input4 from '@/components/Input4.vue'
+import Input5 from '@/components/Input5.vue'
+import Input6 from '@/components/Input6.vue'
+import Input7 from '@/components/Input7.vue'
+import Input8 from '@/components/Input8.vue'
+import Input9 from '@/components/Input9.vue'
+import Input10 from '@/components/Input10.vue'
+import Input11 from '@/components/Input11.vue'
+import Input12 from '@/components/Input12.vue'
+import Input13 from '@/components/Input13.vue'
+import Input14 from '@/components/Input14.vue'
+import Input15 from '@/components/Input15.vue'
+import Input16 from '@/components/Input16.vue'
+import Input17 from '@/components/Input17.vue'
+import Input18 from '@/components/Input18.vue'
+import Input19 from '@/components/Input19.vue'
+import Input20 from '@/components/Input20.vue'
+import Card2 from "@/components/Card2.vue"
 
 interface IptComps {
     comp: Component,

@@ -1,6 +1,6 @@
 <!-- App.vue -->
 <script setup lang="ts">
-import Nav2 from './components/Nav2.vue';
+import Nav2 from './components/Nav2.vue'
 
 </script>
 

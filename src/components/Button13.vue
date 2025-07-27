@@ -1,6 +1,6 @@
 <!-- Button13.vue -->
 <script setup lang="ts">
-import Star from './icons/Star.vue';
+import Star from './icons/Star.vue'
 
 interface Props {
     btn13Content: string

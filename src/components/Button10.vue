@@ -1,6 +1,6 @@
 <!-- Button10.vue -->
 <script setup lang="ts">
-import EnterRight from './icons/EnterRight.vue';
+import EnterRight from './icons/EnterRight.vue'
 
 interface Props {
     btn10Content: string

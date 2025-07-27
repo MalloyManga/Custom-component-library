@@ -1,8 +1,8 @@
 <!-- Input9.vue -->
 <script setup lang="ts">
-import { computed, ref } from 'vue';
-import Search4 from './icons/Search4.vue';
-import ScaleProgressBar from './ScaleProgressBar.vue';
+import { computed, ref } from 'vue'
+import Search4 from './icons/Search4.vue'
+import ScaleProgressBar from './ScaleProgressBar.vue'
 
 const isFocused = ref(false)
 const ipt9Value = defineModel<string>('ipt9Value')

@@ -1,11 +1,11 @@
 <!-- Button5.vue -->
 <script setup lang="ts">
 interface Props {
-    btn5Content: string;
-    btn5W?: string;
-    btn5H?: string;
+    btn5Content: string
+    btn5W?: string
+    btn5H?: string
 }
-const { btn5Content = 'Button' } = defineProps<Props>();
+const { btn5Content = 'Button' } = defineProps<Props>()
 
 </script>
 

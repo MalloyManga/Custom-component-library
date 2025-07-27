@@ -1,7 +1,7 @@
 <!-- Input17.vue -->
 <script setup lang="ts">
-import { ref } from 'vue';
-import Search from './icons/Search.vue';
+import { ref } from 'vue'
+import Search from './icons/Search.vue'
 
 const isFocused = ref(false)
 const ipt17Value = defineModel<string>()

@@ -1,7 +1,7 @@
 <!-- Input5V2.vue -->
 <script setup lang="ts">
-import { computed, ref } from 'vue';
-import ScaleProgressBar from './ScaleProgressBar.vue';
+import { computed, ref } from 'vue'
+import ScaleProgressBar from './ScaleProgressBar.vue'
 
 defineOptions({
     name: 'Input5V2'
@@ -14,8 +14,8 @@ const ipt5V2PrgScale = computed(() => {
     return isFocused.value ? 'scale-x-100' : 'scale-x-0'
 })
 interface Props {
-    ipt5V2Name: string;
-    ipt5Placeholder?: string;
+    ipt5V2Name: string
+    ipt5Placeholder?: string
 }
 const { ipt5V2Name = 'ipt5V2', ipt5Placeholder = 'Type something intelligent' } = defineProps<Props>()
 </script>

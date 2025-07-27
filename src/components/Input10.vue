@@ -1,6 +1,6 @@
 <!-- Input10.vue -->
 <script setup lang="ts">
-import { computed, ref } from 'vue';
+import { computed, ref } from 'vue'
 
 const isFocused = ref(false)
 const ipt10Value = defineModel<string>('ipt10Value', { default: '' })
@@ -9,7 +9,7 @@ const isActive = computed(() => {
 })
 
 interface Props {
-  ipt10Label: string;
+  ipt10Label: string
 }
 
 const { ipt10Label = 'Name' } = defineProps<Props>()

@@ -1,10 +1,10 @@
 <!-- Input7.vue -->
 <script setup lang="ts">
-import Search2 from './icons/Search2.vue';
+import Search2 from './icons/Search2.vue'
 
 const ipt7Value = defineModel<string>('ipt7Value')
 interface Props {
-    ipt7Name: string;
+    ipt7Name: string
 }
 
 const { ipt7Name = 'ipt7' } = defineProps<Props>()

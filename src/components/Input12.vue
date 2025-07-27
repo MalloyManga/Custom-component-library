@@ -1,14 +1,14 @@
 <!-- Input12.vue -->
 <script setup lang="ts">
-import { computed, nextTick, onMounted, ref, useTemplateRef } from 'vue';
-import ScaleProgressBar from './ScaleProgressBar.vue';
+import { computed, nextTick, onMounted, ref, useTemplateRef } from 'vue'
+import ScaleProgressBar from './ScaleProgressBar.vue'
 
 const isFocused = ref(false)
 const topBarW = ref('w-0')
 const ipt12Value = defineModel<string>('ipt12Value', { default: '' })
 const label = useTemplateRef<HTMLLabelElement>('label')
 interface Props {
-    ipt12Label: string;
+    ipt12Label: string
 }
 const { ipt12Label = 'Enter your name' } = defineProps<Props>()
 
@@ -19,9 +19,9 @@ onMounted(() => {
     nextTick(() => {
         if (label.value) {
             const labelWidth = label.value.offsetWidth
-            topBarW.value = `width: ${172 - labelWidth}px`;
+            topBarW.value = `width: ${172 - labelWidth}px`
         }
-    });
+    })
 })
 
 </script>

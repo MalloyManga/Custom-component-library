@@ -1,25 +1,25 @@
 <!-- ButtonView.vue -->
 <script setup lang="ts">
-import { type Component } from "vue";
-import Button5 from "@/components/Button5.vue";
-import Button6 from "@/components/Button6.vue";
-import Button7 from "@/components/Button7.vue";
-import Button8 from "@/components/Button8.vue";
-import Button9 from "@/components/Button9.vue";
-import Button10 from "@/components/Button10.vue";
-import Button11 from "@/components/Button11.vue";
-import Button12 from "@/components/Button12.vue";
-import Button13 from "@/components/Button13.vue";
-import Button14 from "@/components/Button14.vue";
-import Button15 from "@/components/Button15.vue";
-import Button16 from "@/components/Button16.vue";
-import Card2 from "@/components/Card2.vue";
-import Switch from "@/components/Switch.vue";
-import Switch2 from "@/components/Switch2.vue";
-import Button17 from "@/components/Button17.vue";
-import Switch3 from "@/components/Switch3.vue";
-import Switch4 from "@/components/Switch4.vue";
-import Button18 from "@/components/Button18.vue";
+import { type Component } from "vue"
+import Button5 from "@/components/Button5.vue"
+import Button6 from "@/components/Button6.vue"
+import Button7 from "@/components/Button7.vue"
+import Button8 from "@/components/Button8.vue"
+import Button9 from "@/components/Button9.vue"
+import Button10 from "@/components/Button10.vue"
+import Button11 from "@/components/Button11.vue"
+import Button12 from "@/components/Button12.vue"
+import Button13 from "@/components/Button13.vue"
+import Button14 from "@/components/Button14.vue"
+import Button15 from "@/components/Button15.vue"
+import Button16 from "@/components/Button16.vue"
+import Card2 from "@/components/Card2.vue"
+import Switch from "@/components/Switch.vue"
+import Switch2 from "@/components/Switch2.vue"
+import Button17 from "@/components/Button17.vue"
+import Switch3 from "@/components/Switch3.vue"
+import Switch4 from "@/components/Switch4.vue"
+import Button18 from "@/components/Button18.vue"
 
 
 interface BtnComps {

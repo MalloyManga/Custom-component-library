@@ -1,6 +1,6 @@
 <!-- Switch2.vue -->
 <script setup>
-import { ref, watch } from 'vue';
+import { ref, watch } from 'vue'
 
 const isChecked = ref(false)
 
