@@ -26,7 +26,6 @@ interface BtnComps {
     comp: Component
     btnProps?: Record<string, any>
     cardProps?: Record<string, any>
-    btnSlot?: string
 }
 
 const buttonComps: BtnComps[] = [
@@ -47,7 +46,7 @@ const buttonComps: BtnComps[] = [
     { comp: Button17, btnProps: { btn17Content: 'Modern Button' }, cardProps: { isDark: true } },
     { comp: Switch3 },
     { comp: Switch4 },
-    { comp: Button18, btnSlot: '<template #character>綺麗</template>', btnProps: { posi: 'left' }, cardProps: { isDark: true } }
+    { comp: Button18, btnProps: { posi: 'left' }, cardProps: { isDark: true } },
 ]
 
 </script>
@@ -61,6 +60,5 @@ const buttonComps: BtnComps[] = [
             </component>
         </Card2>
     </div>
-
 
 </template>
