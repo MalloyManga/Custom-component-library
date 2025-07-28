@@ -93,7 +93,7 @@ watch(tempVar, (newVal) => {
 
 <template>
     <button @click="handleClick" type="button" :class="cardStatusClass"
-        class="relative flex justify-start items-center gap-4 border-2 px-5 py-3 text-xl cursor-pointer rounded-3xl transition-all duration-300 active:translate-y-2 active:shadow-none">
+        class="relative flex justify-start items-center gap-4 border-2 px-5 py-3 text-xl cursor-pointer rounded-3xl transition-all duration-75 active:translate-y-2 active:shadow-none">
         <Transition name="celebrate">
             <component v-if="isCelebrate" :class="posiClass" class="absolute text-[#A5ED6E] stroke-3"
                 :is="celebrateIconMap[posi]"></component>
@@ -113,7 +113,6 @@ watch(tempVar, (newVal) => {
     </button>
 
 </template>
-
 
 <style scoped>
 .celebrate-enter-active {
