@@ -9,3 +9,10 @@
 * {
   box-sizing: border-box;
 }
+
+@font-face {
+  font-family: "MinecraftFont";
+  src: url("/fonts/Monocraft.ttc");
+  font-weight: normal;
+  font-style: normal;
+}
