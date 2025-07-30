@@ -1,7 +1,9 @@
 <!-- Button20.vue -->
 <script setup lang="ts">
-
-
+interface Prop {
+    btn20Content: string
+}
+const { btn20Content = 'Get Started' } = defineProps<Prop>()
 </script>
 
 <template>
@@ -10,7 +12,7 @@
             class="front absolute z-2 inline-block p-2.5 border-4 bg-[#FACC15] size-full group-hover:brightness-110 group-active:translate-y-1">
         </div>
         <div class="mc-font relative z-3 inline-block group-active:translate-y-1">
-            Get Started
+            {{ btn20Content }}
         </div>
         <div class="back absolute z-1 top-1 size-full p-2.5 border-4 bg-[#CA8A04] inline-block"></div>
     </button>
