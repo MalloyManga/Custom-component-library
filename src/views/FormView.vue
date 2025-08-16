@@ -2,6 +2,7 @@
 <script setup lang="ts">
 import Card2 from '@/components/Card2.vue'
 import Form from '@/components/Form.vue'
+import Form2 from '@/components/Form2.vue'
 import type { Component } from 'vue'
 
 interface FormComps {
@@ -10,7 +11,11 @@ interface FormComps {
     cardProps?: Record<string, any>
 }
 
-const formComps: FormComps[] = [{ comp: Form }]
+const formComps: FormComps[] = [
+    { comp: Form },
+    { comp: Form2 },
+
+]
 
 </script>
 
