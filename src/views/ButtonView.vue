@@ -22,6 +22,7 @@ import Switch4 from "@/components/Switch4.vue"
 import Button18 from "@/components/Button18.vue"
 import Button19 from "@/components/Button19.vue"
 import Button20 from "@/components/Button20.vue"
+import Button21 from "@/components/Button21.vue"
 
 interface BtnComps {
     comp: Component
@@ -49,7 +50,8 @@ const buttonComps: BtnComps[] = [
     { comp: Switch4 },
     { comp: Button18, btnProps: { posi: 'left' }, cardProps: { isDark: true } },
     { comp: Button19, btnProps: { btn19Content: '投稿' } },
-    { comp: Button20 }
+    { comp: Button20 },
+    { comp: Button21 },
 ]
 
 </script>
